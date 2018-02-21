@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Gmail">
+<test name="gmailApp">
+<classes>
+<class name="project2.gmailTest"></class>
+</classes>
+</test> 
+<test name="gmailApp">
+<classes>
+<class name="project2.test_gmailAppTest"></class>
+</classes>
+</test> 
+</suite>

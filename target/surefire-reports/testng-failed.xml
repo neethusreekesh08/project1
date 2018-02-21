@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Command line suite]">
+  <test name="Command line test" preserve-order="false">
+    <classes>
+      <class name="project2.gmailTest"/>
+      <class name="project2.test_gmailAppTest"/>
+    </classes>
+  </test> <!-- Command line test -->
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="project2.test_gmailAppTest">
+        <methods>
+          <include name="signout"/>
+          <include name="closeAll"/>
+          <include name="getResult"/>
+          <include name="testInboxTitle"/>
+          <include name="gmailApp"/>
+        </methods>
+      </class> <!-- project2.test_gmailAppTest -->
+      <class name="project2.gmailTest">
+        <methods>
+          <include name="before_test"/>
+          <include name="closeAll"/>
+          <include name="email_login" invocation-numbers="0 1"/>
+          <include name="getResult"/>
+          <include name="EmailReport"/>
+        </methods>
+      </class> <!-- project2.gmailTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

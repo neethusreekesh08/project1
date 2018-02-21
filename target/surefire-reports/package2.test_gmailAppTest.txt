@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: package2.test_gmailAppTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 27.565 sec <<< FAILURE!
+closeAll(package2.test_gmailAppTest)  Time elapsed: 2.462 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at package2.test_gmailAppTest.closeAll(test_gmailAppTest.java:127)
+
